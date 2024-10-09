@@ -19,8 +19,8 @@ def wishme():
     hour = datetime.datetime.now().hour
 
     if 0 <= hour < 12:
-        print("Hi there, Good Morning!")
-        speak("Hi there, Good Morning!")
+        print("Hi there, Good !")
+        speak("Hi there, Good !")
     elif 12 <= hour < 18:
         print("Hi there, Good Afternoon!")
         speak("Hi there, Good Afternoon!")
